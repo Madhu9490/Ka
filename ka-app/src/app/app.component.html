@@ -1,6 +1,40 @@
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-</div>
-<router-outlet></router-outlet>
+<mat-sidenav-container class = "tp-container">
+  <mat-sidenav mode = "side" class = "side-nav" opened>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Masters Data
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p>Source of Finance</p>
+      <p>Financial Year setup</p>
+      <p>Reconcile Asset_Management</p>
+      <p>Streets with Aasithi</p>
+      <p>Add Ward Block Street</p>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Asset Updation
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p>I'm visible because I am open2</p>
+      <p>I'm visible because I am open2</p>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Asset Modification
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p>I'm visible because I am open3</p>
+      <p>I'm visible because I am open3</p>
+    </mat-expansion-panel>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    Main content
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
