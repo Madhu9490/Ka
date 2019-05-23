@@ -12,7 +12,8 @@ import { FinancialAssetComponent } from './financial-asset/financial-asset.compo
 import { FinancialYearComponent } from './financial-year/financial-year.component';
 import { StrresComponent } from './strres/strres.component';
 import { AddWardBlockStreetComponent } from './add-ward-block-street/add-ward-block-street.component';
-
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 import { MatCheckboxModule,
     MatButtonModule,
     MatInputModule,
@@ -44,6 +45,7 @@ import { MatCheckboxModule,
     MatSortModule,
     MatPaginatorModule } from '@angular/material';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -52,7 +54,9 @@ import { MatCheckboxModule,
     FinancialAssetComponent,
     FinancialYearComponent,
     StrresComponent,
-    AddWardBlockStreetComponent
+    AddWardBlockStreetComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
